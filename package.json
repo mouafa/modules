@@ -1,0 +1,8 @@
+{
+  "name": "lerna-monorepo",
+  "author": "mouafa",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^2.10.0"
+  }
+}
