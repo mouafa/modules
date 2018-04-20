@@ -1,21 +1,19 @@
 {
   "name": "promx",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "a better way to handle promise in async/await ",
   "main": "dist/promx.cjs.js",
+  "umd:main": "lib/promx.js",
+  "module": "dist/promx.es.js",
   "browser": "dist/promx.min.js",
   "scripts": {
     "test": "jest",
-    "build": "bili lib/promx.js --format cjs,umd-min,es"
+    "build": "bili lib/promx.js --format cjs,umd,umd-min,es"
   },
-  "keywords": [
-    "promise",
-    "async",
-    "await"
-  ],
+  "keywords": ["promise", "async", "await"],
   "author": "mouafa",
   "license": "MIT",
-  "devDependencies": {
+  "optionalDependencies": {
     "babel-core": "6.26.0",
     "babel-jest": "22.4.3",
     "babel-plugin-dynamic-import-node": "1.2.0",
@@ -24,7 +22,5 @@
     "bili": "3.1.0",
     "jest": "22.4.3"
   },
-  "files": [
-    "dist/"
-  ]
+  "files": ["dist/"]
 }
