@@ -1,6 +1,6 @@
 {
   "name": "promx",
-  "version": "0.1.0--alpha",
+  "version": "0.1.4",
   "description": "a better way to handle promise in async/await ",
   "main": "dist/promx.cjs.js",
   "browser": "dist/promx.min.js",
@@ -25,6 +25,6 @@
     "jest": "22.4.3"
   },
   "files": [
-    "dist"
+    "dist/"
   ]
 }
