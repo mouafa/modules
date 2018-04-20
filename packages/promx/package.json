@@ -1,6 +1,6 @@
 {
   "name": "promx",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "a better way to handle promise in async/await ",
   "main": "dist/promx.cjs.js",
   "umd:main": "lib/promx.js",
@@ -10,7 +10,11 @@
     "test": "jest",
     "build": "bili lib/promx.js --format cjs,umd,umd-min,es"
   },
-  "keywords": ["promise", "async", "await"],
+  "keywords": [
+    "promise",
+    "async",
+    "await"
+  ],
   "author": "mouafa",
   "license": "MIT",
   "optionalDependencies": {
@@ -22,5 +26,7 @@
     "bili": "3.1.0",
     "jest": "22.4.3"
   },
-  "files": ["dist/"]
+  "files": [
+    "dist/"
+  ]
 }
