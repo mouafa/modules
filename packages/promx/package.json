@@ -10,23 +10,8 @@
     "test": "jest",
     "build": "bili lib/promx.js --format cjs,umd,umd-min,es"
   },
-  "keywords": [
-    "promise",
-    "async",
-    "await"
-  ],
+  "keywords": ["promise", "async", "await"],
   "author": "mouafa",
   "license": "MIT",
-  "optionalDependencies": {
-    "babel-core": "6.26.0",
-    "babel-jest": "22.4.3",
-    "babel-plugin-dynamic-import-node": "1.2.0",
-    "babel-plugin-transform-runtime": "6.23.0",
-    "babel-preset-env": "1.6.1",
-    "bili": "3.1.0",
-    "jest": "22.4.3"
-  },
-  "files": [
-    "dist/"
-  ]
+  "files": ["dist/"]
 }
